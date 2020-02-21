@@ -1,0 +1,35 @@
+article:
+- name: Chaise
+  description: Une chaise est un siège à dossier et qui ne possède pas de bras , qui n'est pas pourvu d'accoudoirs comme le sont les fauteuils. 
+  price: 20
+- name: Table
+  description: Une table est un meuble composé d'un plateau horizontal reposant sur un ou plusieurs pieds ou supports.
+  price: 30
+- name: Chaise Longue
+  description: Une chaise longue est un siège à inclinaison réglable, permettant de s'allonger.
+  price: 45
+- name: Fauteuil
+  description: Un fauteuil est un siège à dossier, généralement à bras, pour une personne, et dans lequel on est assis confortablement.
+  price: 50
+- name: Armoire
+  description: Une armoire est un grand meuble, ordinairement plus haut que large, garni de tablettes et fermé par une ou plusieurs portes, destiné à renfermer les objets de ménage, le linge, les vêtements.
+  price: 74
+- name: Table Basse
+  description: Une table basse est un meuble de salon assez bas pour permettre aux gens de prendre ou de déposer un verre ou une assiette tout en restant assis. Elle peut avoir deux plateaux et des tiroirs.
+  price: 60
+- name: Pouf
+  description: Un pouf est un coussin épais, plus haut que large, servant de siège.
+  price: 40
+- name: Lampe
+  description: Une lampe est une source de rayonnement construite en vue de produire de la lumière visible ou des rayonnements infrarouges ou ultraviolets.
+  price: 15
+- name: Télévision
+  description: La télévision est la transmission, par câble ou par ondes radioélectriques, d'images pouvant être reproduites sur un écran au fur et à mesure de leur réception, ou enregistrées en vue d'une reproduction ultérieure.
+  price: 110
+- name: Pot de Fleur
+  description: Un pot de fleurs, ou pot horticole, est un récipient dans lequel on cultive des plantes. Les pots de fleurs sont aussi utilisés pour forcer et blanchir certains légumes.
+  price: 40
+- name: Lit
+  description: Meuble sur lequel on se couche pour dormir ou se reposer.
+  price: 150
+  
