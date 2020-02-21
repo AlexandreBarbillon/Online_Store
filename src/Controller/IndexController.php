@@ -13,6 +13,9 @@ class IndexController extends AbstractController
 
     /**
      * @Route("/", name="search", methods="GET")
+     * Si aucune recherche n'est faite, affiche l'intégralité des éléments de la base de données
+     * Si une recheche a été faites, la récupère dans l'objet Request et effectue une recherche dans le repository.
+     * Cela n'affichera que les résultats dont le titre contient $search
      */
     public function index(Request $request)
     {

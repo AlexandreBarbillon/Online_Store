@@ -11,7 +11,7 @@ use Symfony\Component\Config\FileLocator;
 /**
  * @method Article|null find($id, $lockMode = null, $lockVersion = null)
  * @method Article|null findOneBy(array $criteria, array $orderBy = null)
- * @method Article[]    findAll()
+ * @method Article[]    getAll()
  * @method Article[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
 class ArticleRepository extends EntityRepository
@@ -28,7 +28,12 @@ class ArticleRepository extends EntityRepository
     }
 
     public function getById($id){
-        return $this->articles[$id];
+        if($id > count($this->articles)){
+            return null;
+        }
+        else{
+            return $this->articles[$id];
+        }
     }
 
     public function searchByName($search){
